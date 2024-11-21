@@ -2,6 +2,7 @@
 body {
 	margin: 0;
 }
+
 /* header */
 header {
 	display: flex;
@@ -52,8 +53,15 @@ header {
 	color: #fafafc;
 }
 
-.btn {
+.btnDecouvrez {
 	font-size: 15px;
+	padding: 15px 30px;
+	background-color: transparent;
+	color: #fafafc;
+	border: 1px solid #fafafc;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s;
 }
 
 /* footer */
