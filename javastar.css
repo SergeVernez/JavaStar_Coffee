@@ -33,10 +33,12 @@ header {
 .navbar a:hover {
 	color: grey;
 }
+/* section */
 
-/* image de fond */
+/* section image de fond */
 .imgBg {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
@@ -45,17 +47,24 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+.imgBg h2 {
+	font-size: 25px;
+	color: #fafafc;
+}
 
-
+.btn {
+	font-size: 15px;
+}
 
 /* footer */
-.footer{
+.footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: #464646;
 	height: 380px;
 }
-.footer p{
+.footer p {
 	font-size: 50px;
+	color: #fafafc;
 }
