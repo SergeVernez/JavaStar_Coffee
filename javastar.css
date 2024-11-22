@@ -30,7 +30,7 @@ header {
 	font-size: 35px;
 } */
 
-/* navbar */
+/* ---navbar--- */
 .navbar a {
 	font-family: "Montserrat Alternates", serif;
 	font-weight: 300;
@@ -46,7 +46,7 @@ header {
 }
 /* section */
 
-/* section image de fond */
+/* ---section image de fond--- */
 .imgBg {
 	display: flex;
 	flex-direction: column;
@@ -58,7 +58,7 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 }
-/* je cible uniquement le h2 du background */
+/* ---je cible uniquement le h2 du background--- */
 .imgBg h2 {
 	font-family: "Montserrat Alternates", serif;
 	font-weight: 400;
@@ -104,7 +104,7 @@ header {
 	margin-bottom: -10vh;
 }
 
-/* cartes de menu */
+/* ---cartes de menu---- */
 
 .card {
 	display: flex;
@@ -133,15 +133,19 @@ header {
 	font-size: 18px;
 }
 
-/* séparateur */
+/* ---séparateur--- */
 .separateur {
-	width: 80vw;
+	width: 60vw;
 	border: none;
 	height: 2px;
 	background-color: #492c21;
 	margin: 70px 0;
 }
-/* section ambiance spotify*/
+.centre {
+	display: flex;
+	justify-content: center;
+}
+/* ---section ambiance spotify----*/
 
 .section {
 	width: 100%;
@@ -153,23 +157,37 @@ header {
 	flex-direction: column;
 	align-items: center;
 }
-/* lignes */
+/* disposition en lignes */
 .row {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
 }
+/* div avec couleur */
 .bgColor {
 	display: flex;
 	background-color: #ba3300;
 	width: 50%;
 }
+.spotify {
+	display: flex;
+	flex-direction: column;
+	background-color: #fafafc;
+	width: 50%;
+	align-items: center;
+	justify-content: center;
+}
+.spotify img {
+	width: 10%;
+}
+/* div avec image */
 .bgImage {
 	display: flex;
 	width: 50%;
+	overflow: hidden; /* Pour que l'image reste dans la div */
 }
 
-/* footer */
+/* ---footer ---*/
 .footer {
 	display: flex;
 	justify-content: center;
