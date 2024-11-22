@@ -48,6 +48,7 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+/* je cible uniquement le h2 du background */
 .imgBg h2 {
 	font-size: 25px;
 	color: #fafafc;
@@ -74,7 +75,14 @@ header {
 .card-container {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	margin-left: 20%;
+	justify-content: flex-start;
+	gap: 70px;
+}
+.card-container h2 {
+	font-size: 25px;
+	width: 100vw;
+	margin-bottom: -10vh;
 }
 
 /* cartes de menu */
@@ -106,6 +114,16 @@ header {
 .cardContent p {
 	margin: 0;
 	font-size: 18px;
+}
+
+/* séparateur */
+
+.separateur {
+	width: 80vw;
+	border: none;
+	height: 2px;
+	background-color: #492c21;
+	margin: 70px 0;
 }
 
 /* footer */
