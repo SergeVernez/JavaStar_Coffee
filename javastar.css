@@ -1,6 +1,8 @@
 /* general */
 body {
 	margin: 0;
+	padding: 0;
+	background-color: #fafafc;
 }
 
 /* header */
@@ -9,27 +11,35 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	background-color: #fafafc;
-	/* padding: 10px 20px; */
 }
 /* logo */
 .logo {
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	color: #492c21;
-	font-size: 30px;
+	font-family: "Montserrat Alternates", serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 35px;
 	text-decoration: none;
 	text-align: center;
 	margin-left: 20px;
 }
+/* .h1 {
+	font-family: "Montserrat Alternates", serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 35px;
+} */
 
 /* navbar */
 .navbar a {
+	font-family: "Montserrat Alternates", serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 25px;
 	color: black;
 	text-decoration: none;
 	text-align: center;
 	margin-left: 20px;
-	font-size: 25px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	font-weight: 400;
 }
 .navbar a:hover {
 	color: grey;
@@ -50,11 +60,17 @@ header {
 }
 /* je cible uniquement le h2 du background */
 .imgBg h2 {
+	font-family: "Montserrat Alternates", serif;
+	font-weight: 400;
+	font-style: normal;
 	font-size: 25px;
 	color: #fafafc;
 }
 
 .btnDecouvrez {
+	font-family: "Montserrat Alternates", serif;
+	font-weight: 300;
+	font-style: normal;
 	font-size: 15px;
 	padding: 15px 30px;
 	background-color: transparent;
@@ -63,6 +79,9 @@ header {
 	border-radius: 10px;
 	cursor: pointer;
 	transition: background-color 0.3s, color 0.3s;
+}
+.btnDecouvrez:hover {
+	background-color: #c8ced351;
 }
 
 .section {
@@ -123,16 +142,30 @@ header {
 	margin: 70px 0;
 }
 /* section ambiance spotify*/
+
+.section {
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+}
 .ambiance {
-	width: 80%;
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+}
+/* lignes */
+.row {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
 }
 .bgColor {
+	display: flex;
 	background-color: #ba3300;
 	width: 50%;
 }
 .bgImage {
+	display: flex;
 	width: 50%;
 }
 
