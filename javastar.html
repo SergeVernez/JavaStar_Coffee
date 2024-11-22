@@ -26,9 +26,9 @@
 			<nav class="navbar">
 				<a href="#cafés">Cafés</a>
 				<a href="#thés">Thés</a>
-				<a href="#">Smoothies</a>
-				<a href="#">Contact</a>
-				<a href="#">Blog</a>
+				<a href="#smoothies">Smoothies</a>
+				<a href="#commande">Commande</a>
+				<a href="#blog">Blog</a>
 				<a href="#"><img src="./Assets/Panier.png" alt="Panier" /></a>
 				<a href="#"><img src="./Assets/Compte.png" alt="Compte" /></a>
 			</nav>
@@ -140,8 +140,7 @@
 			<hr class="separateur" />
 		</div>
 
-		<!-- section thés -->
-		
+		<!-- section thés -->		
 		<section id="thés" class="section">
 			<div class="card-container">
 				<!-- card 1-->
@@ -164,11 +163,10 @@
 		</div>
 
 		<!-- section smoothies -->
-
-		<section id="thés" class="section">
+		<section id="smoothies" class="section">
 			<div class="card-container">
 				<!-- card 1-->
-				<h2>Les Moothies</h2>
+				<h2>Les Smoothies</h2>
 				<div class="card">
 					<img src="./img/mixed-berries-with-yogurt-smoothies.jpg" alt="esspresso" />
 					<div class="cardContent">
@@ -179,7 +177,6 @@
 					</div>
 				</div>
 		</section>
-
 		<!-- fin de section smoothies -->
 
 		<!-- séparateur -->
@@ -188,13 +185,16 @@
 		</div>
 
 		<!-- formulaire de commande -->
-
+		<section id="commande" class="section">
+ <h2>Passez ma commande</h2>
 		 <form>
       <!-- Sélection de la boisson -->
-	  <h2>Passez ma commande</h2>
-      <div class="groupeFormulaire">
-        <label for="coffeeType">Sélectionnez votre boisson :</label>
-        <select class="form-control" id="coffeeType" name="coffeeType">
+	 
+      <div class="formulaire">
+
+        <label for="typeBoisson">Sélectionnez votre boisson :</label>
+        <select id="typeBoisson" name="typeBoisson">
+
           <option value="espresso">Espresso</option>
 		  <option value="espresso">Double Espresso</option>
           <option value="americano">Americano</option>
@@ -204,23 +204,45 @@
           <option value="caramel_macchiato">Caramel Macchiato</option>
           <option value="flat_white">Flat White</option>
           <option value="cold_brew">Cold Brew</option>
+		  <option value="cold_brew">Thé vert</option>
+		  <option value="cold_brew">Thé Jasmin</option>
+		  
         </select>
       </div>
 
 	  <!-- Sélection de la Taille -->
       <div class="groupeFormulaire">
-        <label for="coffeeSize">Sélectionnez la taille :</label>
-        <select class="form-control" id="coffeeSize" name="coffeeSize">
+        <label for="tailleBoisson">Sélectionnez la taille :</label>
+        <select id="tailleBoisson" name="tailleBoisson">
           <option value="petite">Petite (24cl)</option>
           <option value="moyenne">Moyenne (36cl)</option>
           <option value="grande">Grande (48cl)</option>
         </select>
       </div>
+	
 
 	  <!-- Bouton du formulaire -->
       <button type="submit" class="btnForm">Commander</button>
     </form>
   </div>
+  </section>
+  <!-- fin du formulaire -->
+
+  	<!-- séparateur -->
+		<div class="centre">
+			<hr class="separateur" />
+		</div>
+
+		<!-- section ambiance spotify -->
+		<section id="blog" class="section">
+		<div class="ambiance">
+			<div class="bgColor"></div>
+			<div class="bgImage">
+				<img src="./img/Café1.webp" alt="">
+			</div>
+			</div>
+		</section>
+		<!-- fin de section ambiance -->
 
 		<!-- footer -->
 		<footer class="footer">
