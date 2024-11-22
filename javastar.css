@@ -85,6 +85,7 @@ header {
 }
 
 .section {
+	display: flex;
 	width: 80vw;
 	justify-content: center;
 	align-items: center;
@@ -100,7 +101,7 @@ header {
 }
 .card-container h2 {
 	font-size: 25px;
-	width: 100vw;
+	width: 80%;
 	margin-bottom: -10vh;
 }
 
@@ -187,6 +188,19 @@ header {
 	overflow: hidden; /* Pour que l'image reste dans la div */
 }
 
+/* ------section evenement------- */
+.bgImgEvent{
+display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 60vw;
+	height: 60vh;
+	background-image: url("./img/Event.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
 /* ---footer ---*/
 .footer {
 	display: flex;
