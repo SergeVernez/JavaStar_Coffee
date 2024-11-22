@@ -136,7 +136,7 @@
 		<!-- fin de section cafés -->
 
 		<!-- séparateur -->
-		<div>
+		<div class="centre">
 			<hr class="separateur" />
 		</div>
 
@@ -155,10 +155,72 @@
 						<p>Grand (48cl) 3,50€</p>
 					</div>
 				</div>
-
-
 		</section>
 		<!-- fin de section thés -->
+
+		<!-- séparateur -->
+		<div class="centre">
+			<hr class="separateur" />
+		</div>
+
+		<!-- section smoothies -->
+
+		<section id="thés" class="section">
+			<div class="card-container">
+				<!-- card 1-->
+				<h2>Les Moothies</h2>
+				<div class="card">
+					<img src="./img/mixed-berries-with-yogurt-smoothies.jpg" alt="esspresso" />
+					<div class="cardContent">
+						<h3>Esspresso</h3>
+						<p>Petit (24cl) 2,50€</p>
+						<p>Moyen (36cl) 3€</p>
+						<p>Grand (48cl) 3,50€</p>
+					</div>
+				</div>
+		</section>
+
+		<!-- fin de section smoothies -->
+
+		<!-- séparateur -->
+		<div class="centre">
+			<hr class="separateur" />
+		</div>
+
+		<!-- formulaire de commande -->
+
+		 <form>
+      <!-- Sélection de la boisson -->
+	  <h2>Passez ma commande</h2>
+      <div class="groupeFormulaire">
+        <label for="coffeeType">Sélectionnez votre boisson :</label>
+        <select class="form-control" id="coffeeType" name="coffeeType">
+          <option value="espresso">Espresso</option>
+		  <option value="espresso">Double Espresso</option>
+          <option value="americano">Americano</option>
+          <option value="cappuccino">Cappuccino</option>
+          <option value="latte">Latte</option>
+          <option value="mocha">Mocha</option>
+          <option value="caramel_macchiato">Caramel Macchiato</option>
+          <option value="flat_white">Flat White</option>
+          <option value="cold_brew">Cold Brew</option>
+        </select>
+      </div>
+
+	  <!-- Sélection de la Taille -->
+      <div class="groupeFormulaire">
+        <label for="coffeeSize">Sélectionnez la taille :</label>
+        <select class="form-control" id="coffeeSize" name="coffeeSize">
+          <option value="petite">Petite (24cl)</option>
+          <option value="moyenne">Moyenne (36cl)</option>
+          <option value="grande">Grande (48cl)</option>
+        </select>
+      </div>
+
+	  <!-- Bouton du formulaire -->
+      <button type="submit" class="btnForm">Commander</button>
+    </form>
+  </div>
 
 		<!-- footer -->
 		<footer class="footer">

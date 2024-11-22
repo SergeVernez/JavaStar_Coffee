@@ -117,13 +117,13 @@ header {
 }
 
 /* séparateur */
-
 .separateur {
 	width: 80vw;
 	border: none;
 	height: 2px;
 	background-color: #492c21;
 	margin: 70px 0;
+
 }
 
 /* footer */
