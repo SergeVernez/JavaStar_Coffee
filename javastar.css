@@ -108,7 +108,6 @@ header {
 	margin-bottom: -10vh;
 }
 
-
 /* ---cartes de menu---- */
 
 .card {
@@ -158,11 +157,6 @@ header {
 }
 
 /* ------section formulaire-------- */
- .formulaire {
-	display: flex;
-	flex-wrap: wrap;
-	width: 60%;
-}
 
 .section h2 {
 	width: 100%;
@@ -171,44 +165,53 @@ header {
 	font-style: normal;
 	font-size: 25px;
 	line-height: 10%;
-	color: #492C21;
+	color: #492c21;
 }
 
 /*--formulaire-- */
+.formulaire {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 80%;
+}
 
-label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-  margin: 10px 0 30px 0;
+ label {
+	display: flex;
+	flex-direction: row;
+	font-family: "Roboto", serif;
+	font-weight: 200;
+	font-size: 15px;
+	/* display: block; */
+	margin: 10px 0 7px 0;
 }
 
 select {
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-sizing: border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
 }
 
 .btnForm {
-  display: block;
-  padding: 10px;
-  font-size: 15px;
-  color: white;
-  background-color: #BA3300;
-  border: none;
-  border-radius: 5px;
-  margin-top: 30px;
-  cursor: pointer;
-  transition: background-color 0.3s;
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background-color: #ba3300;
+	border: none;
+	border-radius: 5px;
+	margin-top: 30px;
+	cursor: pointer;
+	transition: background-color 0.3s;
 }
 
 .btnForm:hover {
-  background-color: #521904;
-} 
-
+	background-color: #521904;
+}
 
 /* ---section ambiance spotify----*/
 
@@ -224,7 +227,6 @@ select {
 	justify-content: center;
 	align-items: center;
 	width: 60%;
-	
 }
 /* disposition en lignes */
 .row {
