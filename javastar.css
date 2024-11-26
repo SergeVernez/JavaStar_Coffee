@@ -250,12 +250,14 @@ select {
 	align-items: center;
 	justify-content: center;
 	width: 60%;
+	
 }
 /* disposition en lignes */
 .row {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
+	max-height: 500px;
 }
 /* div avec couleur */
 .bgColor {
@@ -280,7 +282,7 @@ select {
 	width: 50%;
 	overflow: hidden; /* Pour que l'image reste dans la div */
 	max-width: 100%;
-	height: auto;
+	height: auto;	
 }
 
 /* ------section evenement------- */
