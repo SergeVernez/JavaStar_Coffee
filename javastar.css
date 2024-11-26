@@ -22,31 +22,28 @@ h1 {
 	font-size: 35px;
 	text-align: center;
 	margin-bottom: -5px;
-	
+	margin-right: 5vw;
 }
-header h2{
+header h2 {
 	color: #492c21;
 	font-family: "Montserrat Alternates", serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: inherit 15px;
+	font-size: 25px;
 	margin-top: -5px;
+	margin-right: 5vw;
 }
 
 /* ---navbar--- */
 .navbar {
 	display: flex;
-	flex-direction: row;
-}
-nav a{
-	display: inline-block;
-	margin: 20px;
 	align-items: center;
 }
-nav a img{
-	align-items: center;
-}
+
 .navbar a {
+	display: inline-block;
+	margin: 30px;
+
 	font-family: "Montserrat Alternates", serif;
 	font-weight: 400;
 	font-style: normal;
@@ -55,13 +52,11 @@ nav a img{
 	text-decoration: none;
 	text-align: center;
 	letter-spacing: 0.2rem;
-	
-	/* margin-left: 50px;
-	margin-right: 30px; */
+	transition: transform 0.3s ease;
 }
-.navbar a:hover {
+nav a:hover {
 	color: #2d1b14;
-	font-weight: 600;
+	transform: scale(1.1);
 }
 /* section */
 
