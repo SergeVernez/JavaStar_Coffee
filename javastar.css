@@ -250,7 +250,6 @@ select {
 	align-items: center;
 	justify-content: center;
 	width: 60%;
-	
 }
 /* disposition en lignes */
 .row {
@@ -282,7 +281,7 @@ select {
 	width: 50%;
 	overflow: hidden; /* Pour que l'image reste dans la div */
 	max-width: 100%;
-	height: auto;	
+	height: auto;
 }
 
 /* ------section evenement------- */
