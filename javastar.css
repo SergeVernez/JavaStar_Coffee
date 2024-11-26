@@ -12,8 +12,6 @@ header {
 	justify-content: center;
 	align-items: center;
 	background-color: #fafafc;
-	width: 80vw;
-	margin-left: 10vw;
 }
 /* --logo h1-- */
 h1 {
@@ -39,8 +37,13 @@ header h2{
 .navbar {
 	display: flex;
 	flex-direction: row;
-	width: 90%;
-	justify-content: space-between;
+}
+nav a{
+	display: inline-block;
+	margin: 20px;
+	align-items: center;
+}
+nav a img{
 	align-items: center;
 }
 .navbar a {
@@ -52,6 +55,7 @@ header h2{
 	text-decoration: none;
 	text-align: center;
 	letter-spacing: 0.2rem;
+	
 	/* margin-left: 50px;
 	margin-right: 30px; */
 }
