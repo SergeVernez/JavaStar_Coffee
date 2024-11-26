@@ -282,19 +282,26 @@ select {
 }
 .spotify {
 	display: flex;
+	
 	flex-direction: column;
 	background-color: #fafafc;
 	width: 50%;
+	height: auto;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 }
 .spotify img {
 	width: 10%;
+}
+.spotify h2{
+	margin: 0;
 }
 .spotify p {
 	font-family: "Roboto", serif;
 	font-weight: 400;
 	font-size: 18px;
+	letter-spacing: 0.2rem;
 }
 /* div avec image */
 .bgImage {
@@ -317,6 +324,16 @@ select {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+.bgImgEvent p{
+	font-family: "Roboto", serif;
+	font-weight: 600;
+	font-size: 30px;
+	padding: 20px;
+	color: #492C21;
+}
+.bgImgEvent span{
+	color: #BA3300;
 }
 /* ---footer ---*/
 .footer {
