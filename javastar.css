@@ -73,6 +73,16 @@ header h2 {
 	color: #2d1b14;
 	transform: scale(1.1);
 }
+
+@media screen and (max-width: 600px) {
+	header{
+		transform: scale(1);
+		flex-direction: column;
+	}
+	.navbar{
+		flex-direction: column;
+	}	
+}
 /* section */
 
 /* ---section image de fond--- */
@@ -86,6 +96,11 @@ header h2 {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+@media screen and (max-width: 600px) {
+	.imgBg {
+		transform: scale(1);
+	}
 }
 /* ---je cible uniquement le h2 du background--- */
 .imgBg h2 {
@@ -311,7 +326,12 @@ select {
 	max-width: 100%;
 	height: auto;
 }
-
+@media screen and (max-width: 600px) {
+	.row{
+		flex-direction: column;
+	}
+	
+}
 /* ------section evenement------- */
 .bgImgEvent {
 	display: flex;
