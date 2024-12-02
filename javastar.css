@@ -59,7 +59,6 @@ header h2 {
 .navbar a {
 	display: inline-block;
 	margin: 30px;
-
 	font-family: "Montserrat Alternates", serif;
 	font-weight: 400;
 	font-style: normal;
@@ -81,6 +80,9 @@ header h2 {
 	}
 	.navbar {
 		flex-direction: column;
+	}
+	.navbar a {
+		font-size: 18px;
 	}
 }
 /* section */
