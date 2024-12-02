@@ -75,13 +75,13 @@ header h2 {
 }
 
 @media screen and (max-width: 768px) {
-	header{
+	header {
 		transform: scale(1);
 		flex-direction: column;
 	}
-	.navbar{
+	.navbar {
 		flex-direction: column;
-	}	
+	}
 }
 /* section */
 
@@ -297,7 +297,6 @@ select {
 }
 .spotify {
 	display: flex;
-	
 	flex-direction: column;
 	background-color: #fafafc;
 	width: 50%;
@@ -309,7 +308,7 @@ select {
 .spotify img {
 	width: 10%;
 }
-.spotify h2{
+.spotify h2 {
 	margin: 0;
 }
 .spotify p {
@@ -327,20 +326,19 @@ select {
 	height: auto;
 }
 @media screen and (max-width: 768px) {
-	.row{
+	.row {
 		display: block;
+		overflow: hidden;
 	}
 
-	.bgColor,
 	.bgImage,
+	.bgColor,
 	.spotify {
 		width: 100%;
-		margin-bottom: 20px;
 	}
-.row .spotify {
-	margin-bottom: 0;
-}
-	
+	.row .spotify {
+		margin-bottom: 0;
+	}
 }
 /* ------section evenement------- */
 .bgImgEvent {
@@ -355,15 +353,15 @@ select {
 	background-repeat: no-repeat;
 	background-position: center;
 }
-.bgImgEvent p{
+.bgImgEvent p {
 	font-family: "Roboto", serif;
 	font-weight: 600;
 	font-size: 30px;
 	padding: 20px;
-	color: #492C21;
+	color: #492c21;
 }
-.bgImgEvent span{
-	color: #BA3300;
+.bgImgEvent span {
+	color: #ba3300;
 }
 /* ---footer ---*/
 .footer {
@@ -380,6 +378,3 @@ select {
 }
 
 /* --------- media queries ------------ */
-
-
-
