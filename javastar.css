@@ -393,4 +393,21 @@ select {
 	color: #fafafc;
 }
 
-/* --------- media queries ------------ */
+/* --------- Scroll to top ------------ */
+.scrollTop {
+	height: 70px;
+	width: 70px;
+	background: crimson;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	right: 25px;
+	bottom: 25px;
+	cursor: pointer;
+	box-shadow: 5px 5px 5px rgba(68, 37, 37, 0.132);
+}
+.icon {
+	width: 50px;
+}
