@@ -97,11 +97,6 @@ header h2 {
 	background-repeat: no-repeat;
 	background-position: center;
 }
-@media screen and (max-width: 768px) {
-	.imgBg {
-		transform: scale(1);
-	}
-}
 /* ---je cible uniquement le h2 du background--- */
 .imgBg h2 {
 	font-family: "Montserrat Alternates", serif;
@@ -362,6 +357,21 @@ select {
 }
 .bgImgEvent span {
 	color: #ba3300;
+}
+
+@media screen and (max-width: 768px) {
+	.bgImgEvent {
+		display: block;
+		text-align: center;
+		align-items: center;
+	}
+	.bgImgEvent img {
+		margin-top: 50%;
+		margin-bottom: -20%;
+	}
+	.bgImgEvent p {
+		font-size: 25px;
+	}
 }
 /* ---footer ---*/
 .footer {
