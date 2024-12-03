@@ -415,5 +415,5 @@ select {
 	width: 50px;
 }
 html {
-	scroll-behavior: smooth;
+	scroll-behavior: smooth; /*--rendre les ancres "smooth"*/
 }
