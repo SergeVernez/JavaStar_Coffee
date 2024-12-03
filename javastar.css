@@ -399,7 +399,7 @@ select {
 	width: 70px;
 	background: #ba3300;
 	border-radius: 50px;
-	display: flex;
+	display: none; /*invisible par défaut (sinon flex sans la fonction invisible */
 	justify-content: center;
 	align-items: center;
 	position: fixed;
@@ -408,6 +408,7 @@ select {
 	cursor: pointer;
 	box-shadow: 5px 5px 5px rgba(68, 37, 37, 0.132);
 }
+.scrollTop.visible { display: flex; /* Le bouton devient visible quand la classe 'visible' est ajoutée */ }
 .icon {
 	width: 50px;
 }
