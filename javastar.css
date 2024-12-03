@@ -397,7 +397,7 @@ select {
 .scrollTop {
 	height: 70px;
 	width: 70px;
-	background: crimson;
+	background: #ba3300;
 	border-radius: 50px;
 	display: flex;
 	justify-content: center;
