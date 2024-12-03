@@ -408,7 +408,12 @@ select {
 	cursor: pointer;
 	box-shadow: 5px 5px 5px rgba(68, 37, 37, 0.132);
 }
-.scrollTop.visible { display: flex; /* Le bouton devient visible quand la classe 'visible' est ajoutée */ }
+.scrollTop.visible {
+	display: flex; /* Le bouton devient visible quand la classe 'visible' est ajoutée */
+}
 .icon {
 	width: 50px;
+}
+html {
+	scroll-behavior: smooth;
 }
